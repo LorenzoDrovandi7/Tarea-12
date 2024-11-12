@@ -1,0 +1,18 @@
+{
+  "name": "tarea-12",
+  "version": "1.0.0",
+  "description": "Este repositorio incluye todos los contenidos a entregar, pertinentes a la tarea 12",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.32",
+    "cypress": "^13.15.1"
+  }
+}
