@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pokedex">
+      <div class="pokedex-hub">
+        <div class="pokedex-header">
+          <h1>Pokédex</h1>
+        </div>
+        <div class="pokedex-pantalla">
+          <div class="pokemon-imagen">
+            <img id="pokemon-imagen" src="" />
+          </div>
+          <div class="pokemon-details">
+            <p><strong>Nombre:</strong> <span id="pokemon-nombre">...</span></p>
+            <p><strong>Tipo:</strong> <span id="pokemon-tipo">...</span></p>
+            <p><strong>Altura:</strong> <span id="pokemon-altura">...</span></p>
+            <p><strong>Peso:</strong> <span id="pokemon-peso">...</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="pokedex-buscador">
+        <div class="pokedex-controles">
+          <input
+            type="text"
+            id="pokemon-id"
+            placeholder="Ingresá la ID del pokemon o su nombre"
+          />
+          <button id="search-button">Buscar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
