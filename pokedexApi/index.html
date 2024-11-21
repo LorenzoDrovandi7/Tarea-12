@@ -14,7 +14,7 @@
         </div>
         <div class="pokedex-pantalla">
           <div class="pokemon-imagen">
-            <img id="pokemon-imagen" src="" />
+            <img id="pokemon-imagen" src="" alt="Imagen del Pokémon" />
           </div>
           <div class="pokemon-details">
             <p><strong>Nombre:</strong> <span id="pokemon-nombre">...</span></p>
@@ -29,14 +29,17 @@
           <input
             type="text"
             id="pokemon-id"
-            placeholder="Ingresá la ID del pokemon o su nombre"
+            placeholder="Ingresa la ID o nombre del Pokémon"
           />
-          <button id="search-button">Buscar</button>
+          <button id="boton-buscar">Buscar</button>
+          <button id="mostrar-boton-lista">Mostrar Lista de Pokémon</button>
+        </div>
+        <div class="pokemon-list-container" id="pokemon-list-container">
+          <ul id="pokemon-list"></ul>
         </div>
       </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
